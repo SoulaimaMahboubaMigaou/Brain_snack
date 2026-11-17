@@ -97,43 +97,43 @@ L’écran d’authentification réunit les modes **Login** et **Register** dans
 
 L’inscription est donc un mode de ce même écran et ne possède pas de capture distincte dans le rapport fourni.
 
-![Écran de connexion BrainSnack](docs/screenshots/connexion.jpg)
+<img src="docs/screenshots/connexion.jpg" alt="Écran de connexion BrainSnack" width="300">
 
 ### 2. Tableau de bord
 
 Après connexion, l’accueil regroupe les informations de progression et les points d’entrée vers les autres fonctions. Il affiche le nom de l’utilisateur, la série de parties, le meilleur score et le nombre de quiz terminés. Si l’utilisateur apparaît dans le classement, sa position est mise en avant avec un bouton pour ouvrir le classement complet. L’écran comprend aussi une carte de défi quotidien, la grille des thèmes, un aperçu des joueurs en tête et l’historique des résultats. L’historique permet de supprimer une partie ; un geste de rafraîchissement recharge les données locales.
 
-![Tableau de bord BrainSnack](docs/screenshots/tableau-de-bord.jpg)
+<img src="docs/screenshots/tableau-de-bord.jpg" alt="Tableau de bord BrainSnack" width="300">
 
 ### 3. Choix d’un thème
 
 La section **Choose a theme** est intégrée au tableau de bord, et non dans un écran séparé. Les sept cartes présentent un nom, une courte description, une couleur dégradée et un bouton de lancement. Le thème choisi détermine la catégorie transmise à OpenTDB ; **Random Mixed** demande des questions sans filtre de catégorie.
 
-![Grille des catégories de quiz](docs/screenshots/categories.jpg)
+<img src="docs/screenshots/categories.jpg" alt="Grille des catégories de quiz" width="300">
 
 ### 4. Partie de quiz
 
 L’écran de jeu indique le thème, le numéro de la question, la progression et le temps restant. La question provient de l’API et les quatre propositions sont mélangées. Une fois une réponse sélectionnée, les choix sont verrouillés et l’option correcte est signalée. Le texte de correction affiche la bonne réponse. Le bouton de progression mène à la question suivante ou termine la partie après la dernière question. Si le chargement échoue, un état d’erreur propose de réessayer.
 
-![Question de quiz BrainSnack](docs/screenshots/quiz.jpg)
+<img src="docs/screenshots/quiz.jpg" alt="Question de quiz BrainSnack" width="300">
 
 #### Retour après une réponse
 
 La capture montre le feedback visuel : la réponse sélectionnée est colorée, la bonne réponse est indiquée et le panneau de correction révèle la réponse attendue avant de passer à la suite.
 
-![Feedback après une réponse](docs/screenshots/reponse.jpg)
+<img src="docs/screenshots/reponse.jpg" alt="Feedback après une réponse" width="300">
 
 ### 5. Résultats
 
 À la fin de la partie, l’écran présente le score et le badge, puis un résumé avec le thème, le nombre de réponses correctes, la précision et un message lié à la performance. Les seuils de badges actuels sont : **Legend** pour 100 %, **Hot Streak** à partir de 80 %, **Quick Thinker** à partir de 50 %, et **Fresh Start** en dessous. **Retry Quiz** relance une partie sur le même thème ; **Back to dashboard** retourne à l’accueil.
 
-![Écran des résultats](docs/screenshots/resultats.jpg)
+<img src="docs/screenshots/resultats.jpg" alt="Écran des résultats" width="300">
 
 ### 6. Classement
 
 Le classement complet affiche un podium pour les trois premiers, puis la liste ordonnée des joueurs. Chaque entrée indique le rang, le score total, le meilleur score, le nombre de parties et la moyenne. L’entrée du compte courant est mise en évidence. Un bouton ou un geste de rafraîchissement recharge les résultats issus de la base locale.
 
-![Classement BrainSnack](docs/screenshots/classement.jpg)
+<img src="docs/screenshots/classement.jpg" alt="Classement BrainSnack" width="300">
 
 ## Installation et lancement
 
